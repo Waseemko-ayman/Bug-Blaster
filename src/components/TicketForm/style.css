@@ -26,7 +26,6 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
 .priority__fieldset {
   border: 1px solid #ccc;
   margin: 10px 0;
@@ -36,7 +35,6 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-
 .priority__label {
   margin-right: 20px;
   font-weight: bold;
@@ -44,7 +42,6 @@ textarea {
   display: flex;
   align-items: center;
 }
-
 .priority__input {
   margin-right: 5px;
   transform: scale(1.1);
