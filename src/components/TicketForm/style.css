@@ -1,0 +1,51 @@
+:is(textarea, input) {
+  transition: all 0.3s;
+}
+
+:is(textarea:focus, input:focus) {
+  outline: none;
+  border-color: #007bff;
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+}
+
+textarea {
+  font-family: inherit;
+  min-height: 200px;
+  resize: none;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.priority__fieldset {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.priority__label {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.priority__input {
+  margin-right: 5px;
+  transform: scale(1.1);
+}
